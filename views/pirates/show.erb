@@ -3,11 +3,7 @@
 <% @ships.each do |ship| %>
   <div class="ships">
     <h2><%= ship.name %></h2><br>
+    <p><%= ship.topic %></p><br>
     <p><%= course.topic %></p><br>
   </div><br>
 <% end %>
-
-
-<h2><%= @ships[0].name %></h2>
-
-<h2><%= @ships[1].name %></h2>
